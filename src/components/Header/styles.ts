@@ -21,6 +21,8 @@ export const Container = styled.div<ContainerProps>`
         color: #fff;
         text-decoration: none;
         font-size: 16px;
+        padding: 0 0 10px;
+
         transition: opacity 0.2s;
 
         & + a {
@@ -34,3 +36,4 @@ export const Container = styled.div<ContainerProps>`
     }
   }
 `;
+// border-bottom: 2px solid #ff872c;
